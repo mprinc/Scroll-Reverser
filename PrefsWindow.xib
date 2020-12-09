@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="15505" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="16097" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="15505"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="16097"/>
         <capability name="System colors introduced in macOS 10.14" minToolsVersion="10.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -133,11 +133,11 @@
                     </connections>
                 </box>
                 <button translatesAutoresizingMaskIntoConstraints="NO" id="X8x-9H-QTO">
-                    <rect key="frame" x="164" y="102" width="92" height="18"/>
+                    <rect key="frame" x="161" y="102" width="98" height="18"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="14" id="u8h-bo-tr0"/>
                     </constraints>
-                    <buttonCell key="cell" type="check" title="ON OR OFF" bezelStyle="regularSquare" imagePosition="left" state="on" inset="2" id="dpQ-7R-OJ2">
+                    <buttonCell key="cell" type="check" title="УКЉ/ИСКЉ" bezelStyle="regularSquare" imagePosition="left" state="on" inset="2" id="dpQ-7R-OJ2">
                         <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                         <font key="font" metaFont="system"/>
                     </buttonCell>
@@ -351,13 +351,13 @@
                             <binding destination="-2" name="title" keyPath="self.menuStringClose" id="jAr-R6-Mzy"/>
                         </connections>
                     </button>
-                    <scrollView autohidesScrollers="YES" horizontalLineScroll="19" horizontalPageScroll="10" verticalLineScroll="19" verticalPageScroll="10" hasHorizontalScroller="NO" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oXH-RL-AG4">
+                    <scrollView autohidesScrollers="YES" horizontalLineScroll="44" horizontalPageScroll="10" verticalLineScroll="44" verticalPageScroll="10" hasHorizontalScroller="NO" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oXH-RL-AG4">
                         <rect key="frame" x="14" y="43" width="363" height="129"/>
                         <clipView key="contentView" id="su5-3C-Faz">
                             <rect key="frame" x="1" y="1" width="361" height="127"/>
-                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            <autoresizingMask key="autoresizingMask"/>
                             <subviews>
-                                <tableView verticalHuggingPriority="750" allowsExpansionToolTips="YES" columnAutoresizingStyle="lastColumnOnly" columnReordering="NO" columnResizing="NO" multipleSelection="NO" autosaveColumns="NO" typeSelect="NO" rowSizeStyle="automatic" viewBased="YES" id="Fry-j7-NLz">
+                                <tableView verticalHuggingPriority="750" allowsExpansionToolTips="YES" columnAutoresizingStyle="lastColumnOnly" columnReordering="NO" columnResizing="NO" multipleSelection="NO" autosaveColumns="NO" typeSelect="NO" rowHeight="42" rowSizeStyle="automatic" viewBased="YES" id="Fry-j7-NLz">
                                     <rect key="frame" x="0.0" y="0.0" width="361" height="127"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <size key="intercellSpacing" width="3" height="2"/>
@@ -366,7 +366,6 @@
                                     <tableColumns>
                                         <tableColumn width="358" minWidth="40" maxWidth="1000" id="RLM-cq-ulR">
                                             <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border">
-                                                <font key="font" metaFont="message" size="11"/>
                                                 <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                                 <color key="backgroundColor" name="headerColor" catalog="System" colorSpace="catalog"/>
                                             </tableHeaderCell>

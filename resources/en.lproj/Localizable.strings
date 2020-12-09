@@ -1,4 +1,4 @@
-﻿/* No comment provided by engineer. */
+/* No comment provided by engineer. */
 "%@ cannot start while another copy is running." = "%@ cannot start while another copy is running.";
 
 /* No comment provided by engineer. */
@@ -65,10 +65,10 @@
 "Scrolling Devices" = "Scrolling Devices";
 
 /* No comment provided by engineer. */
-"Show in menu bar" = "Show in menu bar";
+"Show in menu bar" = "Прикажи у минију";
 
 /* No comment provided by engineer. */
-"Start at login" = "Start at login";
+"Start at login" = "Покрени при пријављивању на систем";
 
 /* No comment provided by engineer. */
 "Status Icon Hidden" = "Status Icon Hidden";

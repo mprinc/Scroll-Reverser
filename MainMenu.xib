@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="15505" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="16097" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="15505"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="16097"/>
     </dependencies>
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="NSApplication">
@@ -11,7 +11,7 @@
             </connections>
         </customObject>
         <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
-        <customObject id="-3" userLabel="Application"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
         <customObject id="494" customClass="AppDelegate">
             <connections>
                 <outlet property="statusMenu" destination="533" id="537"/>
@@ -20,7 +20,7 @@
         </customObject>
         <menu id="533" userLabel="Status Menu">
             <items>
-                <menuItem title="REVERSE SCROLLING" tag="1" id="534">
+                <menuItem title="Инверзно скроловање" tag="1" id="534">
                     <modifierMask key="keyEquivalentModifierMask"/>
                     <connections>
                         <binding destination="494" name="title" keyPath="menuStringReverseScrolling" id="575"/>
@@ -28,14 +28,14 @@
                     </connections>
                 </menuItem>
                 <menuItem isSeparatorItem="YES" id="538"/>
-                <menuItem title="PrEfErEnCeS…" id="702">
+                <menuItem title="Подешавања…" id="702">
                     <modifierMask key="keyEquivalentModifierMask"/>
                     <connections>
                         <action selector="showPrefs:" target="494" id="703"/>
                         <binding destination="494" name="title" keyPath="self.menuStringPreferences" id="706"/>
                     </connections>
                 </menuItem>
-                <menuItem title="QUIT S R" id="536">
+                <menuItem title="Искључи S R" id="536">
                     <modifierMask key="keyEquivalentModifierMask"/>
                     <connections>
                         <action selector="terminate:" target="-3" id="542"/>
